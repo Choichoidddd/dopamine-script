@@ -53,29 +53,25 @@ export default function Home() {
           value={inputs.emotion}
           onChange={handleChange}
           className="w-full p-2 border rounded"
-          required
-        />
+          required/>
         <input
           name="target"
           placeholder="타겟 시청자 (예: 20대 여성, 헬스 초보자 등)"
           value={inputs.target}
           onChange={handleChange}
           className="w-full p-2 border rounded"
-          required
-        />
+          required/>
         <input
           name="keypoint"
           placeholder="영상의 핵심 포인트 (예: 반전포인트, 짧은 꿀팁)"
           value={inputs.keypoint}
           onChange={handleChange}
           className="w-full p-2 border rounded"
-          required
-        />
+          required/>
         <button
           type="submit"
           disabled={loading}
-          className="bg-black text-white px-4 py-2 rounded w-full"
-        >
+          className="bg-black text-white px-4 py-2 rounded w-full>
           {loading ? '생성 중...' : '🎬 대본 생성하기'}
         </button>
       </form>
