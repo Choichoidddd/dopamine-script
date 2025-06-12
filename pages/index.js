@@ -1,3 +1,4 @@
+import '../styles/globals.css';
 // pages/index.js
 import { useState } from 'react';
 import { generateScript } from '../utils/gpt';
