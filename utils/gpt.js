@@ -31,7 +31,6 @@ Each part must be short, punchy, and conversational. Every sentence must be spea
 📸 Visual Hook (영상 초반 비주얼 후킹 – 필수 삽입)
 
 In the first 2 seconds of the script, suggest a strong visual hook that:
-
 - Creates visual surprise, contradiction, or risk
 - Aligns with the psychological goal of the hook
 - Immediately makes the viewer stop scrolling
@@ -40,7 +39,7 @@ Choose from examples like:
 - Before vs After (e.g. “붓기 있는 얼굴 → 날렵한 턱선”)  
 - 감정이입 표정 클로즈업 (e.g. 놀람, 공포, 확신, 충격)  
 - 위기 상황 장면 (e.g. “물에 뜨는 계란”, “막힌 세면대”)  
-- 일상 속 반전 (e.g. “크록스 신은 상태에서 사이렌”)  
+- 일상 속 반전 (e.g. “크록스 신은 상태에서 사이렌”)
 
 Label this section clearly:
 📸 Visual Hook Suggestion
@@ -149,7 +148,7 @@ INPUTS:
 - 유도할 감정: ${emotion}
 - 타겟 시청자: ${target}
 - 핵심 포인트: ${keypoint}
-`;
+  `;
 
   const response = await axios.post(
     'https://api.openai.com/v1/chat/completions',
